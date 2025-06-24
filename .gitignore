@@ -1,0 +1,64 @@
+# Entorno virtual
+venv/
+.env/
+.envrc
+*.env
+
+# Byte-compiled / cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Archivos de log
+*.log
+
+# Archivos temporales del sistema
+.DS_Store
+Thumbs.db
+
+# Archivos de SQLite (si estás usando base de datos local)
+*.sqlite3
+
+# Archivos de migraciones automáticas (opcional)
+*/migrations/__pycache__/
+*/migrations/*.pyc
+
+# Archivos de Django
+/staticfiles/
+/media/
+/db.sqlite3
+
+# Configuración de VSCode
+.vscode/
+
+# Archivos creados por pytest o coverage
+htmlcov/
+.coverage
+.tox/
+.nox/
+.pytest_cache/
+
+# Coverage reports
+coverage.xml
+*.cover
+.hypothesis/
+
+# Archivos de compilación de Cython
+*.c
+*.so
+
+# Archivos de pip
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Archivos del IDE (como PyCharm)
+.idea/
+
+# Archivos de exportación
+*.pot
+*.mo
+
+# Otros
+*.bak
+*.swp
+*.swo
