@@ -68,11 +68,11 @@ CREATE DATABASE Jaes;
 En la raíz del proyecto, crea un archivo llamado `.env` con el siguiente contenido (ajústalo si cambias los datos):
 
 ```env
-DB_NAME=Jaes
-DB_USER=postgres
-DB_PASSWORD=Rodoro$%diego102&
+DB_NAME=""
+DB_USER=""
+DB_PASSWORD=""
 DB_HOST=localhost
-DB_PORT=5432
+DB_PORT=""
 ```
 
 ---
